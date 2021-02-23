@@ -4,9 +4,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App" data-testid="App">
-      <header className="App-header">
-        ccallen001.github.io
-      </header>
+      <header className="App-header">Chase Allen</header>
     </div>
   );
 }

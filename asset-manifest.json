@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chase-allen/static/css/main.5e8413a7.chunk.css",
+    "main.js": "/chase-allen/static/js/main.e9aa18fb.chunk.js",
+    "main.js.map": "/chase-allen/static/js/main.e9aa18fb.chunk.js.map",
+    "runtime-main.js": "/chase-allen/static/js/runtime-main.b2f08e4b.js",
+    "runtime-main.js.map": "/chase-allen/static/js/runtime-main.b2f08e4b.js.map",
+    "static/js/2.99ed9cf3.chunk.js": "/chase-allen/static/js/2.99ed9cf3.chunk.js",
+    "static/js/2.99ed9cf3.chunk.js.map": "/chase-allen/static/js/2.99ed9cf3.chunk.js.map",
+    "static/js/3.b7577005.chunk.js": "/chase-allen/static/js/3.b7577005.chunk.js",
+    "static/js/3.b7577005.chunk.js.map": "/chase-allen/static/js/3.b7577005.chunk.js.map",
+    "index.html": "/chase-allen/index.html",
+    "static/css/main.5e8413a7.chunk.css.map": "/chase-allen/static/css/main.5e8413a7.chunk.css.map",
+    "static/js/2.99ed9cf3.chunk.js.LICENSE.txt": "/chase-allen/static/js/2.99ed9cf3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2f08e4b.js",
+    "static/js/2.99ed9cf3.chunk.js",
+    "static/css/main.5e8413a7.chunk.css",
+    "static/js/main.e9aa18fb.chunk.js"
+  ]
+}

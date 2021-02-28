@@ -17,7 +17,7 @@ function App() {
           <span className="App-header-text">Chase Allen</span>
         </header>
 
-        <nav className="blink" style={{ paddingTop: '20px' }}>
+        <nav className="blink">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
         </nav>

@@ -1,6 +1,6 @@
 @keyframes move {
-  50% {
-    transform: rotate(1080deg) scale(5) translateY(100px);
+  100% {
+    transform: rotate(3600deg) scale(5) translateY(100px);
     opacity: 1;
   }
 }
@@ -12,6 +12,6 @@
     box-shadow: 0 0 8px white;
     opacity: 0;
 
-    animation: move 20000ms ease infinite;
+    animation: move 10000ms ease forwards;
   }
 }

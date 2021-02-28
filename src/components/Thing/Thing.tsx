@@ -1,15 +1,22 @@
 import './Things.scss';
 
+function handleInput({ target }: any) {
+  speechSynthesis.speak(new SpeechSynthesisUtterance(target.value));
+
+  setTimeout(() => (target.value = ''), 500);
+}
+
 function Thing() {
+  let timeout: any;
+
   return (
-    <div
+    <textarea
       className="component Thing"
-      onInput={(...args) => {
-        console.log(args);
+      onInput={(ev) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => handleInput(ev), 2000);
       }}
-    >
-      Conic Gradient
-    </div>
+    ></textarea>
   );
 }
 

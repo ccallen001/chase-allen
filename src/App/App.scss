@@ -17,7 +17,7 @@
     img {
       display: inline-block;
       margin-right: 24px;
-      margin-left: 24px;
+      margin-left: 20px;
       height: 64px;
       border: 1px solid goldenrod;
       border-radius: 2px;
@@ -41,6 +41,10 @@
       color: white;
       font-size: 24px;
     }
+
+    .active {
+      color: lime;
+    }
   }
 
   .view {
@@ -49,7 +53,7 @@
   }
 }
 
-.blink {
+nav {
   font-size: 20px;
   display: inline-block;
 }

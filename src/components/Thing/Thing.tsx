@@ -3,7 +3,7 @@ import './Things.scss';
 function handleInput({ target }: any) {
   speechSynthesis.speak(new SpeechSynthesisUtterance(target.value));
 
-  setTimeout(() => (target.value = ''), 500);
+  setTimeout(() => (target.value = ''), 666);
 }
 
 function Thing() {

@@ -1,6 +1,6 @@
 @keyframes move {
   100% {
-    transform: rotate(3600deg) scale(5) translateY(50px);
+    transform: rotate(3600deg) scale(5) translateY(56px);
     opacity: 1;
   }
 }
@@ -10,8 +10,8 @@
     width: 64px;
     border-radius: 16px;
     box-shadow: 0 1px 0 white, 0 0 8px white;
-    opacity: 0.05;
+    opacity: 0.01;
 
-    animation: move 20000ms ease forwards;
+    animation: move 10000ms ease-out forwards;
   }
 }

@@ -1,0 +1,14 @@
+@keyframes move {
+  50% {
+    transform: scale(10);
+  }
+}
+
+.view.About {
+  img {
+    width: 64px;
+    border-radius: 16px;
+
+    animation: move 10000ms linear infinite;
+  }
+}

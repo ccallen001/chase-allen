@@ -1,17 +1,22 @@
-@keyframes move {
-  100% {
-    transform: rotate(3600deg) scale(5) translateY(56px);
-    opacity: 1;
+.About {
+  @keyframes move {
+    to {
+      transform: rotate(1080deg) scale(1) translateX(-50%);
+      opacity: 1;
+    }
   }
-}
 
-.view.About {
   img {
-    width: 64px;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: rotate(0) scale(0.1) translateX(-50%);
+    transform-origin: 0;
+    width: 200px;
     border-radius: 16px;
-    box-shadow: 0 1px 0 white, 0 0 8px white;
-    opacity: 0.01;
+    box-shadow: 0 1px 0 white, 0 0 16px rgba(255, 255, 255, 0.75);
 
-    animation: move 10000ms ease-out forwards;
+    opacity: 0.1;
+    animation: move 3333ms linear forwards;
   }
 }

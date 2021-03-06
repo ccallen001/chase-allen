@@ -1,11 +1,9 @@
-import chaseAllen from '../../assets/images/chase.jpeg';
 import './Header.scss';
 
 function Header() {
   return (
     <header className="Header">
-        <img src={chaseAllen} alt="Chase Allen" />
-        <span className="Header-text">Chase Allen</span>
+        <h1 className="Header-text">Chase Allen</h1>
       </header>
   );
 }

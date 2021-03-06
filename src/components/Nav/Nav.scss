@@ -1,22 +1,14 @@
 nav {
   display: flex;
   justify-content: center;
-  padding-top: 24px;
-  padding-bottom: 16px;
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
 
   a {
-    padding: 8px;
-    padding-bottom: 4px;
-    color: goldenrod;
-    font-size: 24px;
+    margin: 0 8px;
+    color: black;
     text-decoration: none;
   }
 
   .active-route {
-    border-bottom: 3px solid whitesmoke;
+    border-bottom: 1px solid;
   }
 }

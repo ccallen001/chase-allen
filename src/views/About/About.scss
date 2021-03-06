@@ -1,7 +1,7 @@
 .About {
   @keyframes move {
     to {
-      transform: rotate(1080deg) scale(1) translateX(-50%);
+      transform: rotate(2160deg) scale(1) translateX(-50%);
       opacity: 1;
     }
   }
@@ -17,6 +17,6 @@
     box-shadow: 0 1px 0 white, 0 0 16px rgba(255, 255, 255, 0.75);
 
     opacity: 0.1;
-    animation: move 3333ms linear forwards;
+    animation: move 1000ms ease-in forwards;
   }
 }

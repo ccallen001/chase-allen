@@ -8,7 +8,14 @@ function Home() {
   store.dispatch({ type: 'setUser', payload: 'Fake Chase' });
   console.log(store.getState());
 
-  return <div className="view Home">Home</div>;
+  return (
+    <div className="view Home">
+      <h3>Home</h3>
+      <p className="msg">
+        <span className="hand">👋</span> Hey, I'm Chase!
+      </p>
+    </div>
+  );
 }
 
 export default Home;

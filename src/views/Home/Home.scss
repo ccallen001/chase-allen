@@ -1,3 +1,18 @@
 .view.Home {
-  
+  @keyframes wave {
+    50% {
+      transform: rotate(45deg);
+    }
+  }
+
+  .msg {
+    padding-top: 32px;
+    font-size: 36px;
+
+    .hand {
+      display: inline-block;
+      animation: wave 2000ms linear infinite;
+      animation-delay: 1000ms;
+    }
+  }
 }

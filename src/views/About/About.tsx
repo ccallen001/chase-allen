@@ -5,7 +5,7 @@ import './About.scss';
 function About() {
   return (
     <div className="view About">
-      <h3>About</h3>
+      <h3 className="view-title">About</h3>
       <img src={chase} alt="Chase Allen" />
     </div>
   );

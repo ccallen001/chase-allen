@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className="view Home">
-      <h3>Home</h3>
+      <h3 className="view-title">Home</h3>
       <p className="msg">
         <span className="hand">👋</span> Hey, I'm Chase!
       </p>

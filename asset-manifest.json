@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/chase-allen/static/css/main.e7109860.chunk.css",
-    "main.js": "/chase-allen/static/js/main.742775e4.chunk.js",
-    "main.js.map": "/chase-allen/static/js/main.742775e4.chunk.js.map",
+    "main.js": "/chase-allen/static/js/main.bb37c7a4.chunk.js",
+    "main.js.map": "/chase-allen/static/js/main.bb37c7a4.chunk.js.map",
     "runtime-main.js": "/chase-allen/static/js/runtime-main.7f083174.js",
     "runtime-main.js.map": "/chase-allen/static/js/runtime-main.7f083174.js.map",
     "static/js/2.bae3ab33.chunk.js": "/chase-allen/static/js/2.bae3ab33.chunk.js",
     "static/js/2.bae3ab33.chunk.js.map": "/chase-allen/static/js/2.bae3ab33.chunk.js.map",
     "index.html": "/chase-allen/index.html",
+    "service-worker.js": "/chase-allen/service-worker.js",
+    "service-worker.js.map": "/chase-allen/service-worker.js.map",
     "static/css/main.e7109860.chunk.css.map": "/chase-allen/static/css/main.e7109860.chunk.css.map",
     "static/js/2.bae3ab33.chunk.js.LICENSE.txt": "/chase-allen/static/js/2.bae3ab33.chunk.js.LICENSE.txt",
     "static/media/chase.724f11d1.jpeg": "/chase-allen/static/media/chase.724f11d1.jpeg"
@@ -16,6 +18,6 @@
     "static/js/runtime-main.7f083174.js",
     "static/js/2.bae3ab33.chunk.js",
     "static/css/main.e7109860.chunk.css",
-    "static/js/main.742775e4.chunk.js"
+    "static/js/main.bb37c7a4.chunk.js"
   ]
 }

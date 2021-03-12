@@ -1,0 +1,38 @@
+.game.SpaceInvaders {
+  .grid {
+    box-sizing: initial;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+
+    div {
+      width: 20px;
+      height: 20px;
+
+      &.invader {
+        background-color: limegreen;
+        border-radius: 8px;
+        transform: scale(0.75);
+      }
+
+      &.shooter {
+        background-color: gray;
+        border-radius: 2px;
+        transform: scale(0.66);
+      }
+
+      &.laser {
+        background-color: red;
+        transform: scale(0.25);
+      }
+
+      &.boom {
+        background-color: orange;
+        border-radius: 50%;
+        transform: scale(1.5);
+      }
+    }
+  }
+}

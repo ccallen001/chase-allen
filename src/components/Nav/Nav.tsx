@@ -4,7 +4,7 @@ import './Nav.scss';
 
 function Nav() {
   return (
-    <nav>
+    <nav className="component Nav">
       <NavLink to="/" activeClassName="active-route" exact>
         Home
       </NavLink>

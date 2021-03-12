@@ -3,6 +3,9 @@ import { useEffect } from 'react';
 import './SpaceInvaders.scss';
 
 function SpaceInvaders() {
+  let moveShooter: any;
+  let shoot: any;
+
   useEffect(() => {
     const resultsDisplay = document.querySelector('.results');
 
@@ -36,7 +39,7 @@ function SpaceInvaders() {
 
     squares[currentShooterIndex]?.classList.add('shooter');
 
-    function moveShooter(e: KeyboardEvent) {
+    moveShooter = (e: KeyboardEvent) => {
       squares[currentShooterIndex]?.classList.remove('shooter');
 
       switch (e.key) {
@@ -55,7 +58,7 @@ function SpaceInvaders() {
       }
 
       squares[currentShooterIndex]?.classList.add('shooter');
-    }
+    };
 
     document.addEventListener('keydown', moveShooter);
 
@@ -111,7 +114,7 @@ function SpaceInvaders() {
 
     gameLoop = setInterval(moveInvaders, 500);
 
-    function shoot(e: KeyboardEvent) {
+    shoot = (e: KeyboardEvent) => {
       let laser: any;
       let currentLaserIndex = currentShooterIndex;
 
@@ -146,19 +149,30 @@ function SpaceInvaders() {
         case 'ArrowUp':
           laser = setInterval(moveLaser, 100);
       }
-    }
+    };
 
     document.addEventListener('keydown', shoot);
   });
 
   return (
     <div className="game SpaceInvaders">
-      <h4>Space Invaders</h4>
+      <h4 className="game-title">Space Invaders</h4>
       <h2 className="results">0</h2>
       <div className="grid">
         {Array.from({ length: 225 }).map((_, i) => (
           <div key={i}></div>
         ))}
+      </div>
+      <div className="controls">
+        <div className="left-right">
+          <button onClick={() => moveShooter({ key: 'ArrowLeft' })}>
+            {'<'}
+          </button>
+          <button onClick={() => moveShooter({ key: 'ArrowRight' })}>
+            {'>'}
+          </button>
+        </div>
+        <button onClick={() => shoot({ key: 'ArrowUp' })}>{'^'}</button>
       </div>
     </div>
   );

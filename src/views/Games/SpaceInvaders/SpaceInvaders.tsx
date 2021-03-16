@@ -39,6 +39,7 @@ function SpaceInvaders() {
 
     squares[currentShooterIndex]?.classList.add('shooter');
 
+    // eslint-disable-next-line
     moveShooter = (e: KeyboardEvent) => {
       squares[currentShooterIndex]?.classList.remove('shooter');
 
@@ -114,6 +115,7 @@ function SpaceInvaders() {
 
     gameLoop = setInterval(moveInvaders, 500);
 
+    // eslint-disable-next-line
     shoot = (e: KeyboardEvent) => {
       let laser: any;
       let currentLaserIndex = currentShooterIndex;

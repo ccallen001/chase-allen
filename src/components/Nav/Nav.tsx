@@ -5,6 +5,9 @@ import './Nav.scss';
 function Nav() {
   return (
     <nav className="component Nav">
+      <NavLink to="/login" activeClassName="active-route" exact>
+        Login
+      </NavLink>
       <NavLink to="/" activeClassName="active-route" exact>
         Home
       </NavLink>

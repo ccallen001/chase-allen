@@ -4,6 +4,7 @@ import SignIn from './SignIn/SignIn';
 import Home from './Home/Home';
 import About from './About/About';
 import Games from './Games/Games';
+import Restricted from './Restricted/Restricted';
 
 import './View.scss';
 
@@ -21,6 +22,10 @@ function View() {
 
         <Route path="/games">
           <Games />
+        </Route>
+
+        <Route path="/restricted">
+          <Restricted />
         </Route>
 
         <Route path="/">

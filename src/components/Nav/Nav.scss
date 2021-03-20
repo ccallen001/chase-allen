@@ -3,12 +3,14 @@
   justify-content: center;
   border-top: 1px solid;
   border-bottom: 1px solid;
+  overflow-x: auto;
 
   a {
     margin: 0 8px;
     padding: 8px;
     color: black;
     text-decoration: none;
+    white-space: nowrap;
   }
 
   .active-route {

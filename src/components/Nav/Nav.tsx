@@ -17,6 +17,9 @@ function Nav() {
       <NavLink to="/games" activeClassName="active-route" exact>
         Games
       </NavLink>
+      <NavLink to="/restricted" activeClassName="active-route" exact>
+        Restricted
+      </NavLink>
     </nav>
   );
 }

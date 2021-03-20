@@ -1,6 +1,6 @@
 import { Switch, Route } from 'react-router-dom';
 
-import Login from './Login/Login';
+import SignIn from './SignIn/SignIn';
 import Home from './Home/Home';
 import About from './About/About';
 import Games from './Games/Games';
@@ -11,8 +11,8 @@ function View() {
   return (
     <div className="view">
       <Switch>
-        <Route path="/login">
-          <Login />
+        <Route path="/sign-in">
+          <SignIn />
         </Route>
 
         <Route path="/about">

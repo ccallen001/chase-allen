@@ -1,4 +1,17 @@
 .Header {
   padding: 16px;
   text-align: center;
+
+  .sign-in-out-container {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: inline-block;
+    
+    button {
+      background-color: transparent;
+      border: none;
+      font-weight: bold;
+    }
+  }
 }

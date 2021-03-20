@@ -5,8 +5,8 @@ import './Nav.scss';
 function Nav() {
   return (
     <nav className="component Nav">
-      <NavLink to="/login" activeClassName="active-route" exact>
-        Login
+      <NavLink to="/sign-in" activeClassName="active-route" exact>
+        Sign In
       </NavLink>
       <NavLink to="/" activeClassName="active-route" exact>
         Home

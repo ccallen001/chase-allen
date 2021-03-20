@@ -1,12 +1,16 @@
-.view.Login {
+.view.SignIn {
+  .current-user-email {
+    color: limegreen;
+    padding-bottom: 8px;
+  }
+
   form {
     margin: auto;
     padding: 8px;
     width: 90vw;
     max-width: 420px;
-    border: 1px solid;
-
     text-align: left;
+    border: 1px solid;
 
     label {
       display: block;
@@ -16,7 +20,7 @@
       }
 
       input {
-        margin: 4px 0;
+        margin: 6px 0;
         width: 100%;
       }
     }
@@ -30,7 +34,7 @@
   }
 
   button.switch {
-    padding-top: 8px;
+    padding-top: 16px;
     background-color: transparent;
     border: none;
   }

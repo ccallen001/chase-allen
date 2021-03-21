@@ -11,15 +11,15 @@ import App from './app/App';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-      <AuthProvider>
-        <App />
-      </AuthProvider>
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  ReactDOM.render(
+    <React.StrictMode>
+      <HashRouter>
+        <AuthProvider>
+          <App />
+        </AuthProvider>
+      </HashRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
 
 serviceWorkerRegistration.register();

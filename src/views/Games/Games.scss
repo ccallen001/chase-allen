@@ -1,5 +1,11 @@
 .view.Games {
   nav {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+
+    a {
+      display: block;
+      margin-bottom: 8px;
+      text-decoration: none;
+    }
   }
 }

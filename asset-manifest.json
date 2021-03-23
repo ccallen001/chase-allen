@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/chase-allen/static/css/main.ce14390e.chunk.css",
-    "main.js": "/chase-allen/static/js/main.be4461f3.chunk.js",
-    "main.js.map": "/chase-allen/static/js/main.be4461f3.chunk.js.map",
+    "main.css": "/chase-allen/static/css/main.92541e8d.chunk.css",
+    "main.js": "/chase-allen/static/js/main.b59a89bf.chunk.js",
+    "main.js.map": "/chase-allen/static/js/main.b59a89bf.chunk.js.map",
     "runtime-main.js": "/chase-allen/static/js/runtime-main.7f083174.js",
     "runtime-main.js.map": "/chase-allen/static/js/runtime-main.7f083174.js.map",
-    "static/js/2.a12a332f.chunk.js": "/chase-allen/static/js/2.a12a332f.chunk.js",
-    "static/js/2.a12a332f.chunk.js.map": "/chase-allen/static/js/2.a12a332f.chunk.js.map",
+    "static/js/2.3bcf75d9.chunk.js": "/chase-allen/static/js/2.3bcf75d9.chunk.js",
+    "static/js/2.3bcf75d9.chunk.js.map": "/chase-allen/static/js/2.3bcf75d9.chunk.js.map",
     "index.html": "/chase-allen/index.html",
     "service-worker.js": "/chase-allen/service-worker.js",
     "service-worker.js.map": "/chase-allen/service-worker.js.map",
-    "static/css/main.ce14390e.chunk.css.map": "/chase-allen/static/css/main.ce14390e.chunk.css.map",
-    "static/js/2.a12a332f.chunk.js.LICENSE.txt": "/chase-allen/static/js/2.a12a332f.chunk.js.LICENSE.txt",
+    "static/css/main.92541e8d.chunk.css.map": "/chase-allen/static/css/main.92541e8d.chunk.css.map",
+    "static/js/2.3bcf75d9.chunk.js.LICENSE.txt": "/chase-allen/static/js/2.3bcf75d9.chunk.js.LICENSE.txt",
     "static/media/chase.724f11d1.jpeg": "/chase-allen/static/media/chase.724f11d1.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.7f083174.js",
-    "static/js/2.a12a332f.chunk.js",
-    "static/css/main.ce14390e.chunk.css",
-    "static/js/main.be4461f3.chunk.js"
+    "static/js/2.3bcf75d9.chunk.js",
+    "static/css/main.92541e8d.chunk.css",
+    "static/js/main.b59a89bf.chunk.js"
   ]
 }

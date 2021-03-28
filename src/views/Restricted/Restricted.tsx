@@ -1,9 +1,9 @@
 import { useAuth } from '../../contexts/AuthContext';
 
 function Restricted() {
-  const { currentUser } = useAuth();
+  const { userIsLoading, currentUser } = useAuth();
 
-  return (
+  return !userIsLoading ? (
     <div className="view Restricted">
       <h3 className="view-title">Restricted</h3>
       {!currentUser ? (
@@ -12,7 +12,7 @@ function Restricted() {
         <p>You are viewing a restricted view! 😃</p>
       )}
     </div>
-  );
+  ) : null;
 }
 
 export default Restricted;

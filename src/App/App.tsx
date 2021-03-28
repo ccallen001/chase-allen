@@ -1,19 +1,23 @@
+import { HashRouter } from 'react-router-dom';
+
+import { AuthProvider } from '../contexts/AuthContext';
+
 import Header from '../components/Header/Header';
 import Nav from '../components/Nav/Nav';
 import View from '../views/View';
 
-import { useAuth } from '../contexts/AuthContext';
-
 import './App.scss';
 
 function App() {
-  const { userIsLoading } = useAuth();
-
-  return userIsLoading ? null : (
+  return (
     <div className="App" data-testid="App">
-      <Header />
-      <Nav />
-      <View />
+      <HashRouter>
+        <AuthProvider>
+          <Header />
+          <Nav />
+          <View />
+        </AuthProvider>
+      </HashRouter>
     </div>
   );
 }

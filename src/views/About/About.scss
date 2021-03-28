@@ -1,5 +1,8 @@
 .About {
   img {
-    width: 256px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    @apply rounded;
   }
 }

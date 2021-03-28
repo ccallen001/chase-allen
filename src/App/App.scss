@@ -2,5 +2,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  @apply bg-gradient-to-br;
+  @apply from-green-400;
+  @apply to-blue-500;
   overflow: hidden;
 }

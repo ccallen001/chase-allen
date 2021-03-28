@@ -1,6 +1,10 @@
 .component.Nav {
   display: flex;
   justify-content: center;
+  @apply bg-gradient-to-r;
+  @apply from-gray-200;
+  @apply via-gray-50;
+  @apply to-gray-200;
   border-top: 1px solid;
   border-bottom: 1px solid;
   overflow-x: auto;

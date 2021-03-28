@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+form {
+  @apply bg-gray-50 rounded;
+}
+
+input {
+  @apply px-2 py-1 w-full border rounded outline-none;
+}
+
+select {
+  @apply px-2 py-1 border rounded outline-none;
+}
+
+button {
+  @apply px-2 py-1 bg-blue-500 text-white text-sm font-bold rounded outline-none;
+}

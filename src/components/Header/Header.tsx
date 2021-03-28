@@ -4,7 +4,12 @@ import { useAuth } from '../../contexts/AuthContext';
 
 import './Header.scss';
 
-function Button(props: { text: string; onClick: () => {} }) {
+type ButtonProps = {
+  text: string;
+  onClick: () => void;
+}
+
+function Button(props: ButtonProps) {
   return (
     <button className="sign-in-out" onClick={props.onClick}>
       {props.text}
@@ -28,7 +33,7 @@ function Header() {
               {location.pathname !== '/sign-in' && (
                 <Button
                   text="Sign In"
-                  onClick={async () => {
+                  onClick={() => {
                     history.push('/sign-in');
                   }}
                 />

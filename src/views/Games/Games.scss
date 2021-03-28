@@ -5,11 +5,12 @@
     a {
       display: block;
       margin-bottom: 8px;
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
   .game-title {
     margin-bottom: 8px;
+    font-weight: bold;
   }
 }

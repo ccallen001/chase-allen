@@ -18,24 +18,19 @@
       &:last-of-type {
         margin-bottom: 8px;
       }
-
-      input {
-        margin: 6px 0;
-        width: 100%;
-      }
     }
 
     button.form-action {
       display: block;
       margin-left: auto;
-      padding: 2px 4px 3px;
-      font-weight: bold;
     }
   }
 
   button.switch {
     padding-top: 16px;
     background-color: transparent;
+    color: black;
+    font-weight: normal;
     border: none;
   }
 }
